@@ -1,0 +1,25 @@
+{% set previousPost = collections.posts | getNextCollectionItem(page) %}
+{% set nextPost = collections.posts | getPreviousCollectionItem(page) %}
+
+<div class="prev-next page__prev-next">
+  <div class="container prev-next__container">
+    {% if previousPost %}
+    <div class="prev-next__card">
+      <span class="prev-next__badge">предыдущий</span>
+      <a class="prev-next__link" href="{{ previousPost.url }}">
+        <span class="prev-next__title">{{ previousPost.data.title }}</span>
+        <img class="prev-next__image" src="{{ previousPost.data.small_image }}" width="346" height="204" alt="{{ previousPost.data.title }}">
+      </a>
+    </div>
+    {% endif %}
+    {% if nextPost %}
+    <div class="prev-next__card prev-next__card--reverse">
+      <span class="prev-next__badge">следующий</span>
+      <a class="prev-next__link" href="{{ nextPost.url }}">
+        <span class="prev-next__title">{{ nextPost.data.title }}</span>
+        <img class="prev-next__image" src="{{ nextPost.data.small_image }}" width="346" height="204" alt="{{ nextPost.data.title }}">
+      </a>
+    </div>
+    {% endif %}
+  </div>
+</div>

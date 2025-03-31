@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html class="page full-height" lang="ru">
+  <head>
+    {% include "head-main.njk" %}
+  </head>
+  <body class="page__body full-height">
+    <div class="wrapper">
+      {% include "header.njk" %}
+      <main class="main">
+        {% if page.url != "/" %}
+        <h1 class="visually-hidden">Скачайте эксклюзиные паттерны - Страница {{ pagination.pageNumber + 1 }}</h1>
+        
+        {% endif %}
+        {% if page.url != "/" %}
+        {% else %}
+        <section class="hero page__hero">
+          <div class="container hero__container">
+            <h1 class="hero__title">Скачайте эксклюзивные<span> паттерны</span> бесплатно</h1>
+          </div>
+        </section>
+        {% endif %}
+        {% if page.url != "/" %}
+        <section class="cards page__cards">
+        {% else %}
+        <section class="cards">
+        {% endif %}
+          <div class="container">
+            {% if page.url != "/" %}
+            <h2 class="cards__title section-title">Все паттерны - страница {{ pagination.pageNumber + 1 }}</h2>
+            {% else %}
+            <h2 class="cards__title section-title">Последние</h2>
+            {% endif %}
+            <div class="cards__list">
+              {{ content | safe }}
+            </div>
+          </div>
+        </section>
+        {% include "pagination.njk" %}
+        </main>
+        {% include "footer.njk" %}
+      </div>
+      <div class="search">
+        <div class="search__container">
+          <div class="search__body">
+            <button class="search__close-button" type="button" aria-label="Закрыть окно поиска">
+              <svg class="search__icon" width="18" height="18" aria-hidden="true">
+                <use xlink:href="/img/sprite.svg#close-ic"></use>
+              </svg>
+            </button>
+            <div class="search__content">
+              <form class="search__form" action="#" method="post">
+                <label class="visually-hidden" for="search-input">Введите текст</label>
+                <input class="search__input" id="search-input" type="text" name="search-input" placeholder="Поиск...">
+              </form>
+              <ul class="search__results"></ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    <script src="/js/simple-jekyll-search.min.js" defer></script>
+    {# <script src="/js/focus-visible.min.js" defer></script> #}
+    <script src="/js/script.min.js" defer></script>
+  </body>
+</html>

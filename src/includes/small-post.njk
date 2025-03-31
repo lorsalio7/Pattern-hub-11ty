@@ -1,0 +1,7 @@
+<article class="cards__item small-card">
+  <h3 class="small-card__title">
+    <a class="small-card__link" href="{{ post.url }}">{{ post.data.title }}</a>
+  </h3>
+  <img class="small-card__image" src="{{ post.data.small_image }}" width="346" height="204" alt="{{ post.data.title }}">
+  <time class="small-card__date" datetime="{{ post.date | mapDate }}">{{ post.date | ruDate }}</time>
+</article>

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html class="page full-height" lang="en">
+  <head>
+    {% include "head-post.njk" %}
+  </head>
+  <body class="page__body full-height">
+    <div class="wrapper">
+      {% include "header.njk" %}
+      <main class="main">
+        <article class="article page__article">
+          <div class="container">
+            <div class="article__top">
+              <h1 class="article__title">{{ title }}</h1><img class="article__image" src="{{ big_image }}" width="1170" height="472" alt="орнаментный паттерн с круглыми узорами">
+              <time class="article__date" datetime="{{ date | mapDate }}">{{ date | ruDate }}</time>
+            </div>
+            <div class="raw-content">
+              {{ content | safe }}
+              <div class="button-wrapper">
+                <a class="button button--download" href="{{ download_url }}">
+                  <span>
+                    <svg width="24" height="24" aria-hidden="true">
+                      <use xlink:href="/img/sprite.svg#download-ic"></use>
+                    </svg>
+                  </span>скачать
+                </a>
+              </div>
+              {% include "share.njk" %}
+              <h2>Вопросы и ответы:</h2>
+              <ol>
+                <li>В каких форматах доступны бесшовные паттерны?
+                  <p>Мои паттерны доступны в формате PNG в высоком разрешении. Некоторые паттерны также представлены в SVG, что позволяет масштабировать их без потери качества, а также изменять цвета.</p>
+                </li>
+                <li>Можно ли использовать паттерны в коммерческих проектах?
+                  <p>Да, вы можете использовать мои бесшовные паттерны как в личных, так и в коммерческих проектах. Они подходят для печатной продукции, веб-дизайна, упаковки, одежды и других целей.</p>
+                </li>
+                <li>Как изменить или адаптировать паттерн под свои нужды?
+                  <p>Если вам нужно изменить цвета или подогнать паттерн под ваш проект, вы можете использовать любой векторный редактор, например Adobe Illustrator или бесплатный онлайн-редактор Figma. В Figma можно легко редактировать SVG-файлы, изменяя цвета и элементы узора.</p>
+                </li>
+                <li>Есть ли какие-либо ограничения на использование паттернов?
+                  <p>Вы можете свободно использовать мои бесшовные паттерны в личных и коммерческих проектах. Однако есть несколько ограничений:</p>
+                  <ul>
+                    <li>Нельзя перепродавать паттерны как есть (например, загружать их на маркетплейсы как свою работу).</li>
+                    <li>Нельзя распространять паттерны без указания источника (например, выкладывать на других сайтах без ссылки на мой ресурс).</li>
+                    <li>Запрещено использовать паттерны в незаконных или оскорбительных материалах.</li>
+                  </ul>
+                </li>
+                <li>Могу ли я делиться паттерном?
+                  <p>Да! Вы можете свободно делиться паттернами в соцсетях, указывая ссылку на мой сайт. Если вы хотите разместить паттерн на своём сайте или блоге для скачивания, обязательно добавьте активную ссылку на этот ресурс в качестве источника.</p>
+                </li>
+              </ol>
+            </div>
+          </div>
+        </article>
+        {% include "prev-next.njk" %}
+      </main>
+      {% include "footer.njk" %}
+    </div>
+    <div class="search">
+      <div class="search__container">
+        <div class="search__body">
+          <button class="search__close-button" type="button" aria-label="Закрыть окно поиска">
+            <svg class="search__icon" width="18" height="18" aria-hidden="true">
+              <use xlink:href="/img/sprite.svg#close-ic"></use>
+            </svg>
+          </button>
+          <div class="search__content">
+            <form class="search__form" action="#" method="post">
+              <label class="visually-hidden" for="search-input">Введите текст</label>
+              <input class="search__input" id="search-input" type="text" name="search-input" placeholder="Поиск...">
+            </form>
+            <ul class="search__results"></ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="/js/simple-jekyll-search.min.js" defer></script>
+    <script src="/js/goodshare.min.js" defer></script>
+    <script src="/js/focus-visible.min.js" defer></script>
+    <script src="/js/script.min.js" defer></script>
+  </body>
+</html>

@@ -1,0 +1,16 @@
+<div class="pagination page__pagination">
+  <div class="container pagination__container">
+    {# если предыдущих нет то вставить ссылку без href и с diabled #}
+    {% if pagination.href.previous %}
+    <a class="pagination__button" href="{{ pagination.href.previous }}" title="Предыдущая страница">пред</a>
+    {% else %}
+    <a class="pagination__button" disabled title="Предыдущая страница">пред</a>
+    {% endif %}
+    <span class="pagination__current">{{ pagination.pageNumber + 1 }} из {{ pagination.pages.length }}</span>
+    {% if pagination.href.next %}
+    <a class="pagination__button" href="{{ pagination.href.next }}" title="Следующая страница">след</a>
+    {% else %}
+    <a class="pagination__button" disabled title="Следующая страница">след</a>
+    {% endif %}
+  </div>
+</div>

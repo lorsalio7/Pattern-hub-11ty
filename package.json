@@ -1,0 +1,21 @@
+{
+  "name": "PatternHub",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "eleventy --serve",
+    "build": "eleventy",
+    "deploy": "gh-pages -d _site"
+  },
+  "keywords": [],
+  "homepage": "https://pattern-hub.ru/",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "gh-pages": "^6.0.0"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.1"
+  }
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html class="page full-height" lang="en">
+  <head>
+    {% include "head-about.njk" %}
+  </head>
+  <body class="page__body full-height">
+    <div class="wrapper">
+      {% include "header.njk" %}
+      <main class="main">
+        <article class="article page__article article--others">
+          <div class="container">
+            <div class="article__top">
+              <h1 class="article__title">О сайте</h1><img class="article__image" src="/img/about-imagehome.jpg" width="1170" height="472" alt="О сайте pattern-hub.ru">
+            </div>
+            <div class="raw-content">
+              <p>Спасибо что выбрали Pattern-Hub. Я создал этот ресурс, чтобы предоставить дизайнерам, художникам и всем творческим людям доступ к качественным и уникальным бесшовным паттернам, которые можно использовать в различных проектах.</p>
+              <p>Я стремлюсь инспирировать и поддерживать креативность, предлагая разнообразные паттерны, которые подходят для различных нужд: от веб-дизайна до текстиля и упаковки. Моя коллекция регулярно пополняется, чтобы вы могли находить свежие идеи и решения для своих проектов.</p>
+              <h2>Преимущества</h2>
+              <ul>
+                <li>Регулярно пополняющаяся коллекция</li>
+                <li>Можно скачать бесплатно и без регистрации</li>
+                <li>Некоторые паттерны содержат файл в векторном формате SVG, что позволит использовать другую палитру цветов</li>
+                <li>Использование как в личных так и коммерческих проектах</li>
+              </ul>
+            </div>
+          </div>
+        </article>
+      </main>
+      {% include "footer.njk" %}
+    </div>
+    <div class="search">
+      <div class="search__container">
+        <div class="search__body">
+          <button class="search__close-button" type="button" aria-label="Закрыть окно поиска">
+            <svg class="search__icon" width="18" height="18" aria-hidden="true">
+              <use xlink:href="/img/sprite.svg#close-ic"></use>
+            </svg>
+          </button>
+          <div class="search__content">
+            <form class="search__form" action="#" method="post">
+              <label class="visually-hidden" for="search-input">Введите текст</label>
+              <input class="search__input" id="search-input" type="text" name="search-input" placeholder="Поиск...">
+            </form>
+            <ul class="search__results"></ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="/js/simple-jekyll-search.min.js" defer></script>
+    <script src="/js/focus-visible.min.js" defer></script>
+    <script src="/js/script.min.js" defer></script>
+  </body>
+</html>

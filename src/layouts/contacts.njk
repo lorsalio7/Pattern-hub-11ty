@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html class="page full-height" lang="en">
+  <head>
+    {% include "head-contacts.njk" %}
+  </head>
+  <body class="page__body full-height">
+    <div class="wrapper">
+      {% include "header.njk" %}
+      <main class="main">
+        <article class="article page__article article--others">
+          <div class="container">
+            <div class="article__top">
+              <h1 class="article__title">Контакты</h1><img class="article__image" src="/img/contacts-imagehome.jpg" width="1170" height="472" alt="орнаментный паттерн с круглыми узорами">
+            </div>
+            <div class="raw-content">
+              <p>Я открыт к предложениям и сотрудничествам, поэтому если у вас будут какие-либо вопросы, я с радостью отвечу и постараюсь помочь. Ниже приведены способы связи:</p><strong>Электронная почта:</strong>
+              <p>
+                <a href="mailto:1pattern.hub@gmail.com">1pattern.hub@gmail.com</a>
+              </p>
+              <strong>Социальные сети:</strong>
+              <p class="contacts-list">
+                <a href="#">Вконтакте</a>
+                <a href="#">Икс</a>
+                <a href="#">Телеграм</a>
+              </p>
+            </div>
+          </div>
+        </article>
+      </main>
+      {% include "footer.njk" %}
+    </div>
+    <div class="search">
+      <div class="search__container">
+        <div class="search__body">
+          <button class="search__close-button" type="button" aria-label="Закрыть окно поиска">
+            <svg class="search__icon" width="18" height="18" aria-hidden="true">
+              <use xlink:href="/img/sprite.svg#close-ic"></use>
+            </svg>
+          </button>
+          <div class="search__content">
+            <form class="search__form" action="#" method="post">
+              <label class="visually-hidden" for="search-input">Введите текст</label>
+              <input class="search__input" id="search-input" type="text" name="search-input" placeholder="Поиск...">
+            </form>
+            <ul class="search__results"></ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="/js/simple-jekyll-search.min.js" defer></script>
+    <script src="/js/focus-visible.min.js" defer></script>
+    <script src="/js/script.min.js" defer></script>
+  </body>
+</html>
