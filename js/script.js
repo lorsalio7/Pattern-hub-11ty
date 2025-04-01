@@ -234,9 +234,8 @@ if (pinButtons.length > 0) {
     button.addEventListener("click", function () {
       var pinImage = button.previousElementSibling;
       var imageURL = pinImage.src;
-      var pinURL = "https://pinterest.com/pin/create/button/";
       var description = pinImage.alt;
-      var fullPinURL = "".concat(pinURL, "?url=").concat(encodeURIComponent(window.location.href), "&media=").concat(encodeURIComponent(imageURL), "&description=").concat(encodeURIComponent(description));
+      var fullPinURL = "https://pinterest.com/pin/create/button/?url=".concat(encodeURIComponent(window.location.href), "&media=").concat(encodeURIComponent(imageURL), "&description=").concat(encodeURIComponent(description));
       window.open(fullPinURL, "_blank");
     });
   });
