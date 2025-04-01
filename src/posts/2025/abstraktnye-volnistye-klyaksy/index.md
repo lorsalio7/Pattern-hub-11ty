@@ -16,7 +16,7 @@ permalink: "posts/{{ page.fileSlug }}/"
 <h2>Варианты применения:</h2>
 
 <div class="image-container">
-  <img src="/images/2025/abstraktnye-volnistye-klyaksy/2.jpg" width="1000" height="1500" alt="">
+  <img src="/images/2025/abstraktnye-volnistye-klyaksy/2.jpg" width="1000" height="1500" alt="MousePad With Abstract Wavy Splotches">
   <button class="pin-button" type="button">Сохранить в
     <span>
       <svg class="pin-icon" width="28" height="28" aria-hidden="true">
