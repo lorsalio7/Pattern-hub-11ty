@@ -203,8 +203,8 @@ if (shareOpenButton) {
   var otherShareList = document.querySelector(".share__other");
   var countersLinks = document.querySelectorAll(".share__link span");
   countersLinks.forEach(function (el) {
-    var elCount = ++el.textContent;
-    if (elCount > 0) {
+    var elCount = el.textContent;
+    if (Number(elCount) > 0) {
       el.parentElement.classList.add("share__link--hoverable");
     }
   });
