@@ -202,12 +202,14 @@ var shareOpenButton = document.querySelector(".share__button");
 if (shareOpenButton) {
   var otherShareList = document.querySelector(".share__other");
   var countersLinks = document.querySelectorAll(".share__link span");
-  countersLinks.forEach(function (el) {
-    var elCount = el.textContent;
-    if (Number(elCount) > 0) {
-      el.parentElement.classList.add("share__link--hoverable");
-    }
-  });
+  setTimeout(function () {
+    countersLinks.forEach(function (el) {
+      var elCount = el.textContent;
+      if (Number(elCount) > 0) {
+        el.parentElement.classList.add("share__link--hoverable");
+      }
+    });
+  }, 1000);
   shareOpenButton.addEventListener("click", function (e) {
     e.stopPropagation(); // предотвращаем всплытие события
     shareOpenButton.classList.toggle("share__button--active");
