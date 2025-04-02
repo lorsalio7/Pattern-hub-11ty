@@ -5,10 +5,10 @@ description: "Скачайте бесшовный паттерн с цветам
 eng_title: "Cherry Blossom Flowers on a Pink Background"
 download_url: "#"
 date: 2025-03-07
-tags: ["posts"]
+tags: ["patterns"]
 big_image: "/images/2025/tsvety-sakury-na-rozovom-fone/1.jpg"
 small_image: "/images/2025/tsvety-sakury-na-rozovom-fone/small.jpg"
-permalink: "posts/{{ page.fileSlug }}/"
+permalink: "patterns/{{ page.fileSlug }}/"
 ---
 
 <p>Паттерн состоит из больших и маленьких ассиметрично расположенных цветков сакуры, выполненных в плоском стиле и окрашенные в розовый цвет.</p>
@@ -16,7 +16,7 @@ permalink: "posts/{{ page.fileSlug }}/"
 <h2>Варианты применения:</h2>
 
 <div class="image-container">
-  <img src="/images/2025/tsvety-sakury-na-rozovom-fone/2.jpg" width="1000" height="1500" alt="">
+  <img src="/images/2025/tsvety-sakury-na-rozovom-fone/2.jpg" width="1000" height="1500" alt="Phone Case With Cherry Blossom Flowers On A Pink Background">
   <button class="pin-button" type="button">Сохранить в
     <span>
       <svg class="pin-icon" width="28" height="28" aria-hidden="true">
@@ -27,7 +27,7 @@ permalink: "posts/{{ page.fileSlug }}/"
 </div>
 
 <div class="image-container">
-  <img src="/images/2025/tsvety-sakury-na-rozovom-fone/3.jpg" width="1000" height="1500" alt="">
+  <img src="/images/2025/tsvety-sakury-na-rozovom-fone/3.jpg" width="1000" height="1500" alt="Pillow With Cherry Blossom Flowers On A Pink Background">
   <button class="pin-button" type="button">Сохранить в
     <span>
       <svg class="pin-icon" width="28" height="28" aria-hidden="true">
@@ -38,7 +38,7 @@ permalink: "posts/{{ page.fileSlug }}/"
 </div>
 
 <div class="image-container">
-  <img src="/images/2025/tsvety-sakury-na-rozovom-fone/4.jpg" width="1000" height="1500" alt="">
+  <img src="/images/2025/tsvety-sakury-na-rozovom-fone/4.jpg" width="1000" height="1500" alt="Notebook With Cherry Blossom Flowers On A Pink Background">
   <button class="pin-button" type="button">Сохранить в
     <span>
       <svg class="pin-icon" width="28" height="28" aria-hidden="true">

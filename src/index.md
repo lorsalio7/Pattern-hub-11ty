@@ -2,7 +2,7 @@
 title: "Бесплатные паттерны"
 layout: "base.njk"
 pagination:
-  data: collections.posts
+  data: collections.patterns
   size: 9
   alias: posts
   reverse: true

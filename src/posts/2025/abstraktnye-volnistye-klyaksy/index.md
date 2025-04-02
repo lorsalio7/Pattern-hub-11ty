@@ -5,10 +5,10 @@ description: "Скачайте бесшовный паттерн с абстра
 eng_title: "Abstract Wavy Splotches"
 download_url: "#"
 date: 2025-03-09
-tags: ["posts"]
+tags: ["patterns"]
 big_image: "/images/2025/abstraktnye-volnistye-klyaksy/1.jpg"
 small_image: "/images/2025/abstraktnye-volnistye-klyaksy/small.jpg"
-permalink: "posts/{{ page.fileSlug }}/"
+permalink: "patterns/{{ page.fileSlug }}/"
 ---
 
 <p>Паттерн состоит из волнистых клякс разных размеров с внешним контуром, внутри которых размещаются другие кляксы меньшего размера. Узор выполнен с двумя акцентными цветами: светло-желтым и светло-серым.</p>
@@ -16,7 +16,7 @@ permalink: "posts/{{ page.fileSlug }}/"
 <h2>Варианты применения:</h2>
 
 <div class="image-container">
-  <img src="/images/2025/abstraktnye-volnistye-klyaksy/2.jpg" width="1000" height="1500" alt="MousePad With Abstract Wavy Splotches">
+  <img src="/images/2025/abstraktnye-volnistye-klyaksy/2.jpg" width="1000" height="1500" alt="Mouse Pad With Abstract Wavy Splotches">
   <button class="pin-button" type="button">Сохранить в
     <span>
       <svg class="pin-icon" width="28" height="28" aria-hidden="true">
@@ -27,7 +27,7 @@ permalink: "posts/{{ page.fileSlug }}/"
 </div>
 
 <div class="image-container">
-  <img src="/images/2025/abstraktnye-volnistye-klyaksy/3.jpg" width="1000" height="1500" alt="">
+  <img src="/images/2025/abstraktnye-volnistye-klyaksy/3.jpg" width="1000" height="1500" alt="T-shirt With Abstract Wavy Splotches">
   <button class="pin-button" type="button">Сохранить в
     <span>
       <svg class="pin-icon" width="28" height="28" aria-hidden="true">
@@ -38,7 +38,7 @@ permalink: "posts/{{ page.fileSlug }}/"
 </div>
 
 <div class="image-container">
-  <img src="/images/2025/abstraktnye-volnistye-klyaksy/4.jpg" width="1000" height="1500" alt="">
+  <img src="/images/2025/abstraktnye-volnistye-klyaksy/4.jpg" width="1000" height="1500" alt="Pillow With Abstract Wavy Splotches">
   <button class="pin-button" type="button">Сохранить в
     <span>
       <svg class="pin-icon" width="28" height="28" aria-hidden="true">

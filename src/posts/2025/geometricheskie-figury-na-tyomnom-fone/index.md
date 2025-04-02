@@ -5,10 +5,10 @@ description: "Скачайте бесшовный паттерн с геомет
 eng_title: "Geometric Shapes on a Dark Background"
 download_url: "#"
 date: 2025-03-04
-tags: ["posts"]
+tags: ["patterns"]
 big_image: "/images/2025/geometricheskie-figury-na-tyomnom-fone/1.jpg"
 small_image: "/images/2025/geometricheskie-figury-na-tyomnom-fone/small.jpg"
-permalink: "posts/{{ page.fileSlug }}/"
+permalink: "patterns/{{ page.fileSlug }}/"
 ---
 
 <p>Паттерн различных геометрических фигур выполненных в плоском стиле и приятной цветовой палитре. Главные цвета: желтый и красный в различных оттенках.</p>
@@ -16,7 +16,7 @@ permalink: "posts/{{ page.fileSlug }}/"
 <h2>Варианты применения:</h2>
 
 <div class="image-container">
-  <img src="/images/2025/geometricheskie-figury-na-tyomnom-fone/2.jpg" width="1000" height="1500" alt="">
+  <img src="/images/2025/geometricheskie-figury-na-tyomnom-fone/2.jpg" width="1000" height="1500" alt="Pillow With Geometric Shapes on a Dark Background">
   <button class="pin-button" type="button">Сохранить в
     <span>
       <svg class="pin-icon" width="28" height="28" aria-hidden="true">
@@ -27,7 +27,7 @@ permalink: "posts/{{ page.fileSlug }}/"
 </div>
 
 <div class="image-container">
-  <img src="/images/2025/geometricheskie-figury-na-tyomnom-fone/3.jpg" width="1000" height="1500" alt="">
+  <img src="/images/2025/geometricheskie-figury-na-tyomnom-fone/3.jpg" width="1000" height="1500" alt="Paper Cup With Geometric Shapes on a Dark Background">
   <button class="pin-button" type="button">Сохранить в
     <span>
       <svg class="pin-icon" width="28" height="28" aria-hidden="true">
@@ -38,7 +38,7 @@ permalink: "posts/{{ page.fileSlug }}/"
 </div>
 
 <div class="image-container">
-  <img src="/images/2025/geometricheskie-figury-na-tyomnom-fone/4.jpg" width="1000" height="1500" alt="">
+  <img src="/images/2025/geometricheskie-figury-na-tyomnom-fone/4.jpg" width="1000" height="1500" alt="Mouse Pad With Geometric Shapes on a Dark Background">
   <button class="pin-button" type="button">Сохранить в
     <span>
       <svg class="pin-icon" width="28" height="28" aria-hidden="true">

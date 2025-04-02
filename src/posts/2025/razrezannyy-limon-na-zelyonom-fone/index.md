@@ -5,10 +5,10 @@ description: "Скачайте бесшовный паттерн с разрез
 eng_title: "Sliced Lemon on a Green Background"
 download_url: "#"
 date: 2025-03-12
-tags: ["posts"]
+tags: ["patterns"]
 big_image: "/images/2025/razrezannyy-limon-na-zelyonom-fone/1.jpg"
 small_image: "/images/2025/razrezannyy-limon-na-zelyonom-fone/small.jpg"
-permalink: "posts/{{ page.fileSlug }}/"
+permalink: "patterns/{{ page.fileSlug }}/"
 ---
 
 <p>Паттерн с изображением больших и маленьких лимонов в разрезе и небольшой тенью. Основные цвета ярко-желтый и зеленый, а также используется небольшая тень придающая дизайну легкий 3D-эффект.</p>
@@ -16,7 +16,7 @@ permalink: "posts/{{ page.fileSlug }}/"
 <h2>Варианты применения:</h2>
 
 <div class="image-container">
-  <img src="/images/2025/razrezannyy-limon-na-zelyonom-fone/2.jpg" width="1000" height="1500" alt="">
+  <img src="/images/2025/razrezannyy-limon-na-zelyonom-fone/2.jpg" width="1000" height="1500" alt="T-shirt With Sliced Lemon on a Green Background">
   <button class="pin-button" type="button">Сохранить в
     <span>
       <svg class="pin-icon" width="28" height="28" aria-hidden="true">
@@ -27,7 +27,7 @@ permalink: "posts/{{ page.fileSlug }}/"
 </div>
 
 <div class="image-container">
-  <img src="/images/2025/razrezannyy-limon-na-zelyonom-fone/3.jpg" width="1000" height="1500" alt="">
+  <img src="/images/2025/razrezannyy-limon-na-zelyonom-fone/3.jpg" width="1000" height="1500" alt="Paper Cup With Sliced Lemon on a Green Background">
   <button class="pin-button" type="button">Сохранить в
     <span>
       <svg class="pin-icon" width="28" height="28" aria-hidden="true">
@@ -38,7 +38,7 @@ permalink: "posts/{{ page.fileSlug }}/"
 </div>
 
 <div class="image-container">
-  <img src="/images/2025/razrezannyy-limon-na-zelyonom-fone/4.jpg" width="1000" height="1500" alt="">
+  <img src="/images/2025/razrezannyy-limon-na-zelyonom-fone/4.jpg" width="1000" height="1500" alt="Phone Case With Sliced Lemon on a Green Background">
   <button class="pin-button" type="button">Сохранить в
     <span>
       <svg class="pin-icon" width="28" height="28" aria-hidden="true">
