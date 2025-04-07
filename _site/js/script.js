@@ -198,6 +198,14 @@ var sjs = SimpleJekyllSearch({
   searchResultTemplate: '<li><a href="{url}"><img src="{image}"><span>{title}</span></a></li>',
   noResultsText: '<li class="search__not-found">Ничего не найдено 🙁</li>'
 });
+var downloadButton = document.querySelector(".button--download");
+if (downloadButton) {
+  var userLanguages = navigator.languages;
+  if (!userLanguages.includes("ru-RU") || !userLanguages.includes("ru")) {
+    downloadButton.lastChild.textContent = "download";
+  }
+}
+;
 var shareOpenButton = document.querySelector(".share__button");
 if (shareOpenButton) {
   var otherShareList = document.querySelector(".share__other");
