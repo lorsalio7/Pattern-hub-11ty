@@ -3,7 +3,7 @@ layout: "post.njk"
 title: "Жёлтые бананы на зелёном фоне"
 description: "Скачайте бесшовный паттерн с желтыми бананами на зеленом фоне. Доступны растровый формат PNG и векторный SVG. Бесплатно для коммерческого использования."
 eng_title: "Yellow Bananas on a Green Background"
-download_url: "#"
+download_url: "https://www.dropbox.com/scl/fi/0fua5ec1y98bxmb5ex34u/Yellow-Bananas.zip?rlkey=g58y93k23orkut7dq29or9f9d&dl=1"
 date: 2025-03-01
 tags: ["patterns"]
 big_image: "/images/2025/zhyoltye-banany-na-zelyonom-fone/1.jpg"

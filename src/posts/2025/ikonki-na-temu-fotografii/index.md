@@ -3,7 +3,7 @@ layout: "post.njk"
 title: "Иконки на тему фотографии"
 description: "Скачайте бесшовный паттерн с иконками на тему фотографии в приятной цветовой палитре. Доступны растровый формат PNG и векторный SVG. Бесплатно для коммерческого использования."
 eng_title: "Photography Themed Icons"
-download_url: "#"
+download_url: "https://www.dropbox.com/scl/fi/pshumh0qgywdfrf86b9ha/Photography-Icons.zip?rlkey=vy1hnpn3sv520az2g4awsgxvs&dl=1"
 date: 2025-03-06
 tags: ["patterns"]
 big_image: "/images/2025/ikonki-na-temu-fotografii/1.jpg"

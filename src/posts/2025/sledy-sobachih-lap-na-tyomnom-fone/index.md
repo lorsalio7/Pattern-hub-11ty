@@ -3,7 +3,7 @@ layout: "post.njk"
 title: "Следы собачьих лап на тёмном фоне"
 description: "Скачайте бесшовный паттерн со следами собачьих лапок в приятной цветовой палитре. Доступны растровый формат PNG и векторный SVG. Бесплатно для коммерческого использования."
 eng_title: "Dog Paw Prints on a Dark Background"
-download_url: "#"
+download_url: "https://www.dropbox.com/scl/fi/h419fnvxpi1soegae6nmt/Dog-Paws.zip?rlkey=mwgpev2l7mwzlhpc9hvinu5ci&dl=1"
 date: 2025-03-05
 tags: ["patterns"]
 big_image: "/images/2025/sledy-sobachih-lap-na-tyomnom-fone/1.jpg"

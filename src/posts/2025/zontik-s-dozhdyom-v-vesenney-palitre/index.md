@@ -3,7 +3,7 @@ layout: "post.njk"
 title: "Зонтик с дождём в весенней палитре"
 description: "Скачайте бесшовный паттерн с зонтиком и дождем в весенней палитре. Доступны растровый формат PNG и векторный SVG. Бесплатно для коммерческого использования."
 eng_title: "Umbrella with Rain in a Spring Palette"
-download_url: "#"
+download_url: "https://www.dropbox.com/scl/fi/681tpemlbo123x8scxzq2/Rain-And-Umbrella.zip?rlkey=vqmo0r1z0pccakvga6cp1byk0&dl=1"
 date: 2025-03-11
 tags: ["patterns"]
 big_image: "/images/2025/zontik-s-dozhdyom-v-vesenney-palitre/1.jpg"

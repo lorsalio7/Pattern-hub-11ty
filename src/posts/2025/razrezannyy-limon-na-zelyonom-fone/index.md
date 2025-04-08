@@ -3,7 +3,7 @@ layout: "post.njk"
 title: "Разрезанный лимон на зелёном фоне"
 description: "Скачайте бесшовный паттерн с разрезанным лимоном на зеленом фоне в приятной цветовой палитре. Доступны растровый формат PNG и векторный SVG. Бесплатно для коммерческого использования."
 eng_title: "Sliced Lemon on a Green Background"
-download_url: "#"
+download_url: "https://www.dropbox.com/scl/fi/i90spuqbbs3ih58al9tt6/Sliced-Lemon.zip?rlkey=yaaltovos31vzfiitjlcjnvh6&dl=1"
 date: 2025-03-12
 tags: ["patterns"]
 big_image: "/images/2025/razrezannyy-limon-na-zelyonom-fone/1.jpg"

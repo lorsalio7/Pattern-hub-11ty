@@ -3,7 +3,7 @@ layout: "post.njk"
 title: "Зёрна кофе на коричневом фоне"
 description: "Скачайте бесшовный паттерн с зернами кофе на коричневом фоне. Доступны растровый формат PNG и векторный SVG. Бесплатно для коммерческого использования."
 eng_title: "Coffee Beans on a Brown Background"
-download_url: "#"
+download_url: "https://www.dropbox.com/scl/fi/2rkci1rzekgu9xj37vzgs/Coffee-Beans.zip?rlkey=bq1q5s1g2kyooz67156kg49gz&dl=1"
 date: 2025-03-03
 tags: ["patterns"]
 big_image: "/images/2025/zyorna-kofe-na-korichnevom-fone/1.jpg"

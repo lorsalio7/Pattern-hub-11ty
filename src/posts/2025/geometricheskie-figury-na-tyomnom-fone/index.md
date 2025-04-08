@@ -3,7 +3,7 @@ layout: "post.njk"
 title: "Геометрические фигуры на тёмном фоне"
 description: "Скачайте бесшовный паттерн с геометрическими фигурами на темном фоне. Доступны растровый формат PNG и векторный SVG. Бесплатно для коммерческого использования."
 eng_title: "Geometric Shapes on a Dark Background"
-download_url: "#"
+download_url: "https://www.dropbox.com/scl/fi/cpszjp88wajsf9fqdu5zh/Geometric-Shapes.zip?rlkey=p6m07n3cldj0rpr5kedfeg0ao&dl=1"
 date: 2025-03-04
 tags: ["patterns"]
 big_image: "/images/2025/geometricheskie-figury-na-tyomnom-fone/1.jpg"

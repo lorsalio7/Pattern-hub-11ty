@@ -3,7 +3,7 @@ layout: "post.njk"
 title: "Абстрактный деревянный рисунок"
 description: "Скачайте бесшовный паттерн с абстрактным деревянным рисунком.  Доступны растровый формат PNG и векторный SVG. Бесплатно для коммерческого использования."
 eng_title: "Abstract Wooden Pattern"
-download_url: "#"
+download_url: "https://www.dropbox.com/scl/fi/xz11fvrmkqs7b8qgnfzn5/Wood-Pattern.zip?rlkey=cqziq44qyasvhjp3v10fzemc7&dl=1"
 date: 2025-03-08
 tags: ["patterns"]
 big_image: "/images/2025/abstraktnyy-derevyannyy-risunok/1.jpg"

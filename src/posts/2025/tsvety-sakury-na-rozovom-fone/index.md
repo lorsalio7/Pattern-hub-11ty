@@ -3,7 +3,7 @@ layout: "post.njk"
 title: "Цветы сакуры на розовом фоне"
 description: "Скачайте бесшовный паттерн с цветами сакуры на розовом фоне. Доступны растровый формат PNG и векторный SVG. Бесплатно для коммерческого использования."
 eng_title: "Cherry Blossom Flowers on a Pink Background"
-download_url: "#"
+download_url: "https://www.dropbox.com/scl/fi/e12wk53ol7goktg2ngrho/Sakura-Flowers.zip?rlkey=ua53l1kp84m33lpw1x8gflvbl&dl=1"
 date: 2025-03-07
 tags: ["patterns"]
 big_image: "/images/2025/tsvety-sakury-na-rozovom-fone/1.jpg"

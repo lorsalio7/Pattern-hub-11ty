@@ -3,7 +3,7 @@ layout: "post.njk"
 title: "Рисунок с листьями и плавными линиями"
 description: "Скачайте бесшовный паттерн с плавными линиями и листьями в приятной цветовой палитре. Доступны растровый формат PNG и векторный SVG. Бесплатно для коммерческого использования."
 eng_title: "Figure with Leaves and Smooth Lines"
-download_url: "#"
+download_url: "https://www.dropbox.com/scl/fi/qnlyz7iv25e133qjg3slo/Leaves-and-Lines.zip?rlkey=u9e6eqbbs0pm6hggoje0kg23l&dl=1"
 date: 2025-03-13
 tags: ["patterns"]
 big_image: "/images/2025/risunok-s-listyami-i-plavnymi-liniyami/1.jpg"

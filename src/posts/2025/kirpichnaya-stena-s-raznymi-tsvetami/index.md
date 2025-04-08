@@ -3,7 +3,7 @@ layout: "post.njk"
 title: "Кирпичная стена с разными цветами"
 description: "Скачайте бесшовный паттерн со стеной из разноцветного кирпича. Доступны растровый формат PNG и векторный SVG. Бесплатно для коммерческого использования."
 eng_title: "Brick Wall with Various Colors"
-download_url: "#"
+download_url: "https://www.dropbox.com/scl/fi/0ocw14d25kmrk157bskqd/Brick-Wall.zip?rlkey=qus5cjeow7anasvgwstbswifi&dl=1"
 date: 2025-03-02
 tags: ["patterns"]
 big_image: "/images/2025/kirpichnaya-stena-s-raznymi-tsvetami/1.jpg"

@@ -3,7 +3,7 @@ layout: "post.njk"
 title: "Абстрактные волнистые кляксы"
 description: "Скачайте бесшовный паттерн с абстрактными волнистыми кляксами в приятной цветовой палитре. Доступны растровый формат PNG и векторный SVG. Бесплатно для коммерческого использования."
 eng_title: "Abstract Wavy Splotches"
-download_url: "#"
+download_url: "https://www.dropbox.com/scl/fi/oeapvrn3k34xntq8iwu4p/Wavy-Splotches.zip?rlkey=08y9kx820mfv04k1lwmibbjga&dl=1"
 date: 2025-03-09
 tags: ["patterns"]
 big_image: "/images/2025/abstraktnye-volnistye-klyaksy/1.jpg"
